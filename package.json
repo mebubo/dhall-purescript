@@ -12,8 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "pulp test -m Dhall.Test.Standard",
-    "grammar": "./grammar.sh"
+    "test": "spago test -m Dhall.Test.Standard",
+    "grammar": "nearleyc grammar.ne -o grammar.js"
   },
   "repository": {
     "type": "git",

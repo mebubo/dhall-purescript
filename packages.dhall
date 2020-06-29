@@ -1,9 +1,8 @@
 let upstream =
-      https://github.com/purescript/package-sets/releases/download/psc-0.13.6-20200507/packages.dhall sha256:9c1e8951e721b79de1de551f31ecb5a339e82bbd43300eb5ccfb1bf8cf7bbd62
+      https://github.com/purescript/package-sets/releases/download/psc-0.13.8/packages.dhall sha256:0e95ec11604dc8afc1b129c4d405dcc17290ce56d7d0665a0ff15617e32bbf03
 
 let overrides =
-      { halogen = upstream.halogen // { version = "v5.0.0-rc.8" }
-      , halogen-vdom = upstream.halogen-vdom // { version = "v6.1.3" }
+      { halogen = upstream.halogen // { version = "v5.0.2" }
       , variant =
               upstream.variant
           //  { version = "481fe28029e6ac8c25da647c6f797c8edfe3dbaf"
